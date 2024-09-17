@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurora - Profile</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="feed.html">Feed</a>
+      <a href="explore.html">Explore</a>
+      <a href="messages.html">Messages</a>
+      <a href="settings.html">Settings</a>
+      <a href="help.html">Help</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>My Profile</h2>
+    <img src="../img/default-avatar.png" alt="Profile Picture" id="profilePic">
+    <button onclick="editProfile()">Edit Profile</button>
+
+    <p>Followers: <span id="followersCount">0</span></p>
+    <p>Following: <span id="followingCount">0</span></p>
+    <p>Posts: <span id="postsCount">0</span></p>
+
+    <div id="userPosts">
+      <!-- Os posts do usuário serão carregados aqui -->
+    </div>
+  </section>
+
+  <script src="../js/app.js"></script>
+</body>
+</html>
